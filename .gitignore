@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+
+credentials.json
+token.json
+
+.streamlit/secrets.toml
+
+outreach_tracker.csv
+
+*.xlsx
+*.xls
+*.pdf
+
+.env
+.env.*

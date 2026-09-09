@@ -1,0 +1,7 @@
+streamlit==1.63.0
+pandas==3.0.5
+openpyxl==3.1.5
+requests
+google-auth
+google-auth-oauthlib
+google-api-python-client
