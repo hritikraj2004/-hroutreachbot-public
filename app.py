@@ -1012,13 +1012,9 @@ if (
             st.rerun()
 
 
-    except Exception as e:
-
-        st.error(
-            f"Google authorization error: {e}"
-        )
-
-        st.query_params.clear()
+   except Exception as e:
+    st.error("GOOGLE CALLBACK ERROR")
+    st.exception(e)
 
 
 # =========================================================
