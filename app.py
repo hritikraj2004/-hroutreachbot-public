@@ -507,7 +507,7 @@ CLIENT_SECRET = st.secrets[
 
 
 REDIRECT_URI = (
-    "http://localhost:8501"
+    "https://hroutreachbot-public.streamlit.app/oauth2callback"
 )
 
 
