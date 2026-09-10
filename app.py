@@ -1010,11 +1010,9 @@ if (
 
 
             st.rerun()
-
-
-   except Exception as e:
-    st.error("GOOGLE CALLBACK ERROR")
-    st.exception(e)
+    except Exception as e:
+        st.error("GOOGLE CALLBACK ERROR")
+        st.exception(e)
 
 
 # =========================================================
